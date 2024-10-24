@@ -22,3 +22,9 @@ variable "private_key_path" {
   description = "The path to your private API key"
   default = "" 
 }
+
+variable "oke_node_pool" {
+  description = "name of oke_node_pool "
+  default = ""
+  
+}
